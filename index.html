@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager with Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Task Manager & Pomodoro Timer</h1>
+    </header>
+
+    <section id="task-manager">
+        <h2>Tasks</h2>
+        <div id="task-list">
+            <!-- Tasks will go here -->
+        </div>
+        <input type="text" id="task-input" placeholder="Add a new task...">
+        <select id="priority">
+            <option value="normal">Normal</option>
+            <option value="high">High Priority</option>
+        </select>
+        <button id="add-task">Add Task</button>
+    </section>
+
+    <section id="pomodoro-timer">
+        <h2>Pomodoro Timer</h2>
+        <div id="timer-display">25:00</div>
+        <button id="start-timer">Start</button>
+        <button id="reset-timer">Reset</button>
+    </section>
+
+    <footer>
+        <p>Focus on your tasks and achieve more!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
